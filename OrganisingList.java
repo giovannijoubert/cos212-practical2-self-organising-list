@@ -65,7 +65,7 @@ public class OrganisingList {
             ListNode temp = root;
             ListNode theOne = null;
             int rThis = 0;
-            while(temp != null){
+            while(temp.next != null){
                 if(temp.next.key == key){
                     theOne = temp.next; //Save
                     rThis = theOne.data;
